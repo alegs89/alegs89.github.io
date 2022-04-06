@@ -7941,7 +7941,9 @@ textarea.form-control-lg {
 }
 
 .rounded-circle {
-  border-radius: 50% !important;
+  border-radius: 100px !important;
+  height: auto;
+  width: auto;
 }
 
 .rounded-pill {
@@ -11362,9 +11364,13 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    max-width: 150px;
+    max-height: 250px;
+    border: 10px solid rgba(255, 255, 255, 0.2);
+  }
+  #sideNav .navbar-brand .img-profile:hover {
+    transform: scale(2);
+    transition: 0.2s;
   }
   #sideNav .navbar-collapse {
     display: flex;
