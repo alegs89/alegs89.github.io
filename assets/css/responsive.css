@@ -299,7 +299,7 @@
 
 	.hero h1 {
 		font-size: 32px
-		margin-bottom: 10px;
+		
 	}
 
 	.job-title {
@@ -399,7 +399,6 @@
 	.site-footer .col-xs-12 {
 		text-align: center;
 	}
-}
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 479px) {
@@ -461,4 +460,4 @@
 	.site-footer .col-xs-offset-3 {
 		margin-left: 0;
 	}
-}
+}}
