@@ -157,7 +157,7 @@ html, body {
 
 /* Background-color */
 .gray-bg {
-    background-color: #e1e1e1;
+    background-color: linear-gradient(#b8d0ff,#bfcaff,#c5c4ff,#cbbdff);
 }
 
 /* HEADER
@@ -172,6 +172,7 @@ html, body {
 
 .site-logo img {
     padding-bottom: 2px;
+    
 }
 
 /* Navigation */
@@ -262,7 +263,7 @@ html, body {
 .site-main {
     position: relative;
     margin-bottom: 100px;
-    background-color: #fff;
+    background-color:linear-gradient(#b8d0ff,#bfcaff,#c5c4ff,#cbbdff);
     z-index: 1;
 }
 /* site-section */
@@ -304,7 +305,7 @@ html, body {
     height: 15px;
     margin-bottom: 0;
     border-radius: 0;
-    background-color: #dfdfdf;
+    background-color:  linear-gradient(#b8d0ff,#bfcaff,#c5c4ff,#cbbdff);
     box-shadow: none;
 }
 
@@ -333,7 +334,7 @@ html, body {
     width: 100%;
     height: 400px; 
     position: absolute;
-    background-color: rgba(255,255,255,0.5);
+    background-color:  linear-gradient(#b8d0ff,#bfcaff,#c5c4ff,#cbbdff);
     top: 0;
     left: 0;
     z-index: 0;
@@ -342,7 +343,7 @@ html, body {
 .section-services .container {
     padding: 120px 100px;
     position: relative;
-    background-color: #fff;
+    background-color:  linear-gradient(#b8d0ff,#bfcaff,#c5c4ff,#cbbdff);
     box-shadow: 0px 0px 40px 8px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
